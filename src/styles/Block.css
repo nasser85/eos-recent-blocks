@@ -1,0 +1,85 @@
+
+.block-wrapper {
+    width: 100%;
+    margin: auto;
+    padding: 20px 10px;
+}
+.block-card {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 4px;
+}
+.block-header {
+    padding: 0px 15px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #3DDC97;
+    word-break: break-all;
+}
+.block-header p {
+    margin: 5px;
+}
+.block-footer-section {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (min-width: 690px) {
+    .block-footer-section {
+        width: 50%;
+    }
+    .block-wrapper {
+        width: 80%;
+        padding: 20px;
+    }
+}
+.footer-text {
+    word-break: break-all;
+    color: #46237A;
+    margin: 0;
+}
+.footer-title {
+    color: #256EFF;
+    margin: 0;
+    font-weight: bold;
+}
+.eos-image {
+    width: 100%;
+    margin: auto;
+}
+.eos-image-wrapper {
+    width: 130px;
+    margin: auto;
+    padding: 0px 15px;
+}
+.button-wrapper {
+    padding: 20px;
+    text-align: center;
+}
+.expand-button {
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: auto;
+}
+.expand-button:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.raw-wrapper {
+    height: 150px;
+    padding: 10px;
+    overflow: scroll;
+    border: 1px solid #000000;
+
+}
+.raw-wrapper.hidden {
+    display: none;
+}
+
